@@ -2,7 +2,28 @@
 <html>
 <body>
   
-  <h4> Soon To be Launched </4>
-
+  <h1> Validator </h1>
+  
+  <p id="numb">pls entr a number between 0-10</p>
+  
+  <button type="button" onclick ="myFuction">Submit </button>
+  
+  <p id="demo"></p>
+  
+  <script>
+        function myFucntion() {
+         var x, text;
+          
+          x=document.getElementById("numb").value;
+          if (isNaN(x) || x<1 || x>10 {
+                text=" wrong number";
+              } else {
+                text= "correct number;
+              }
+              document.getElementById("demo").innerHTML =text;
+        }
+    
+  </script>
+  
 </body>
 </html>
